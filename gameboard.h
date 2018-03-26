@@ -8,6 +8,7 @@ class GameBoard
 	std::vector<std::vector<BoardElement>> board;
 public:
 	void init();
+	BoardElement getElement(int x, int y);
 };
 
 #endif

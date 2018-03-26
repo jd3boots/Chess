@@ -3,6 +3,8 @@
 #include "subject.h"
 #include "gamestate.h"
 
+const int board_size = 8;
+
 class GameMaster: public Subject
 {
 	GameState state;

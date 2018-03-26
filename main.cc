@@ -18,7 +18,8 @@ int main()
 	gb.init();
 	GameState st;
 	GameMaster gm;
-	TextDisplay td;
+	TextDisplay td(gb);
 	gm.addObserver(&td);
 	gm.notifyObservers(st);
+	cout << td << endl;
 }

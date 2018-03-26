@@ -13,6 +13,7 @@ class BoardElement
 public:
 	BoardElement(bool isPiece = false):
 		isPiece{isPiece}{}
+	PieceType getPiece();
 };
 
 #endif
